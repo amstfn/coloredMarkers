@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color-marker-demo</title>
+    <style>
+        body{
+            text-align: center;
+            margin: auto auto;
+        }
+        .container{
+            background-color: white;
+            height: 100px;
+            width: 400px;
+            margin: 100px auto;
+            overflow: scroll;
+        }
+        .marker {
+            height: 25px;
+            background: linear-gradient(rgb(112, 9, 9),rgb(244, 61, 61),rgb(112, 9, 9));
+            width: 200px;
+            margin: 35px auto;
+            border-top-right-radius: 30%;
+            border-bottom-right-radius: 30%;
+            box-shadow: 10px 10px rgba(189, 39, 39, 0.476) ;
+            border-left: 10px solid black;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .circle {
+            background-color: black;
+            border-radius: 50%;
+            height: 20px;
+            width:5px;
+            margin-left: 150px;
+            margin-top: 2px
+        }
+        .circle , .marker {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="marker"><div class="circle"></div></div>
+    </div>
+</body>
+</html>
